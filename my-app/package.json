@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "proxy": "http://localhost:3001",
+  "proxy": "https://tension-nm4otwwj1-m-hamza12.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
