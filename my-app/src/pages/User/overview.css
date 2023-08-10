@@ -1,0 +1,11 @@
+.overviewBackground {
+  background-image: url('./../../images/overview6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.autoHeight {
+  position: absolute;
+  bottom: 0px;
+  top: 50px;
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.black {
+    background-color: black;
+}
+.textOrange{
+    color : orange;
+}
+@keyframes scaling{
+    0%{scale : 0.9}
+    50%{scale : 1}
+    100% {scale : 0.9}
+}
+.scalingAnimation {
+    animation: scaling 2s infinite;
+}
+.loginBackground {
+    background-image: url('./images/dumbell.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.redBorder{
+    border : 1rem solid red;
+}
+.height {
+    height: 200vh;
+    background-color:red;
+}
