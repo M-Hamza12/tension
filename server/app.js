@@ -4,8 +4,8 @@ const app = express();
 
 const AppError = require('./Utils/APIError');
 const errorHandler = require('./controller/errorHandler');
-const userRouter = require('./routes/userRoute');
-const exerciseRouter = require('./routes/exerciseRoute');
+const userRouter = require("./api/routes/userRoute");
+const exerciseRouter = require("./api/routes/exerciseRoute");
 
 const corsOptions = {
   origin: 'http://localhost:3000',
