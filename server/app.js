@@ -7,7 +7,7 @@ const userRouter = require("./api/routes/userRoute");
 const exerciseRouter = require("./api/routes/exerciseRoute");
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: "https://tension-app.netlify.app",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
