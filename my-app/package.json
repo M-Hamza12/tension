@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "proxy": "http://localhost:3001",
+  "proxy": "https://tension-fitness-app.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
