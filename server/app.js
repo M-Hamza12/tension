@@ -2,8 +2,7 @@ let express = require('express');
 const cors = require('cors');
 const app = express();
 
-const AppError = require('./Utils/APIError');
-const errorHandler = require('./controller/errorHandler');
+const errorHandler = require("./api/controller/errorHandler");
 const userRouter = require("./api/routes/userRoute");
 const exerciseRouter = require("./api/routes/exerciseRoute");
 

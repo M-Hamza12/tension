@@ -1,6 +1,5 @@
 const Exercise = require('./../model/exerciseModel');
-const APIError = require('./../Utils/APIError');
-const APPError = require('./../Utils/APIError')
+const APIError = require("./../Utils/APIError");
 exports.addWorkout = async (req,resp,next) => {
     // req.body.user = req.user.id;
     const data = {exercises : req.body.exercises , title : req.body.title , day : req.body.day , user : req.user.id};
